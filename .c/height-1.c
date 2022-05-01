@@ -8,5 +8,5 @@ int main()
 	
 	scanf("%d %d",&foot,&inch);
 	
-	printf("身高是%f米。\n",((foot+inch/12.0)*0.3048));
+	printf("身高是%f米。\n",((foot+inch/12.0)*0.3048)); //注意12.0为浮点数，所有inch/12.0的结果也为浮点数
 }
