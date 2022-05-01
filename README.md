@@ -32,7 +32,7 @@ int main()
 }
 ```
 
-## 输出
+## [输出](https://github.com/wkwbk/c-language/blob/main/.c/hello.c)
 
 - ``printf("Hello World\n");``
 - ``""``里面的内容叫做“字符串”，``printf``会把其中的内容原封不动地输出
@@ -60,10 +60,11 @@ int main()
 ||%|取余|
 |( )|( )|括号|
 
-## 输入
+## [输入](https://github.com/wkwbk/c-language/blob/main/.c/change.c)
 
 - ``scanf("%d",&price);``
 	- 要求``scanf``这个函数读入一个整数，读到的结果赋值给变量``price``
+	- 一个``scanf``可以读取多个变量，[例如](https://github.com/wkwbk/c-language/blob/main/.c/plus.c)；也可以使用多个``scanf``读取多个变量
 	- ``%d``说明后面有一个整数要输入在这个位置上
 	- 小心``price``前面的``&``
 - 输入也在终端窗口中
@@ -72,7 +73,7 @@ int main()
 ### 变量
 
 - ``int price=0;``
-- 这一行，定义了一个变量。变量的名字是price，类型是int，初始值是0
+- 这一行，定义了一个变量。变量的名字是``price``，类型是``int``，初始值是``0``
 - 变量是一个保存数据的地方，当我们需要在程序里保存数据时，比如上面的例子中要记录用户输入的价格，就需要一个变量来保存它
 - 用一个变量保存了数据，它才能参加到后面的计算中
 - 变量定义的一般形式：
