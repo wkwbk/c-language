@@ -32,7 +32,7 @@ int main()
 }
 ```
 
-## [输出 printf](https://github.com/wkwbk/c-language/blob/main/.c/hello.c)
+## [printf 输出](https://github.com/wkwbk/c-language/blob/main/.c/hello.c)
 
 - ``printf("Hello World\n");``
 - ``""``里面的内容叫做“字符串”，``printf``会把其中的内容原封不动地输出
@@ -60,7 +60,7 @@ int main()
 ||%|取余|
 |( )|( )|括号|
 
-## [输入 scanf](https://github.com/wkwbk/c-language/blob/main/.c/change.c)
+## [scanf 输入](https://github.com/wkwbk/c-language/blob/main/.c/change.c)
 
 - ``scanf("%d",&price);``
 	- 要求``scanf``这个函数读入一个整数，读到的结果赋值给变量``price``
@@ -94,13 +94,13 @@ int main()
 - 关系是静态的，而动作是动态的。在数学中，``a=b``和``b=a``是等价的，而在程序设计中，两者的意思完全相反
 - C语言并没有强制要求所有的变量都在定义的地方做初始化，但是**所有的变量在第一次被使用（出现在赋值运算的右边）之前应该被赋值一次**
 
-## 单精度浮点数 float
+## float 单精度浮点数
 
 - 带小数点的数值。浮点这个词的本意就是指小数点是浮动的，是计算机内部表达非整数（包含分数和无理数）的一种方式
 - 人们借用浮点数这个词来表达所有带小数点的数
 - 当浮点数和整数放到一起运算时，C会将整数转换成浮点数，然后进行浮点数的运算，[例如](https://github.com/wkwbk/c-language/blob/main/.c/height-1.c)
 
-## [双精度浮点数 double](https://github.com/wkwbk/c-language/blob/main/.c/height-2.c)
+## [double 双精度浮点数](https://github.com/wkwbk/c-language/blob/main/.c/height-2.c)
 
 - double的意思是“双”，它本来是“双精度浮点数”的第一个单词，人们用来表示浮点数类型
 - 除了double，还有float（意思就是浮点！）表示单精度浮点数
