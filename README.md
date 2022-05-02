@@ -130,7 +130,7 @@ int main()
   - ``total += 5;``等于``total = total + 5;``
   - ``total += (sum+100)/2;``等于``total = total + (sum+100)/2;``
   - ``total *= sum+12;``等于``total = total * (sum+12);``
-  - ``total /= 12 + 6;``等于``total = total/(12+6);``
+  - ``total /= 12 + 6;``等于``total = total / (12+6);``
 - 注意两个运算符中间不要有空格
 
 
