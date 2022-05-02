@@ -12,7 +12,8 @@ int main()
 	//计算找零
 	if(bill>=price){
 		printf("找您%d元\n",bill-price);//TODO
-	} else{
+	}
+	else{
 		printf("您还需要付%d\n",price-bill);
-	}	
+	}
 }
