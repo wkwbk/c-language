@@ -133,7 +133,7 @@ int main()
   - ``total /= 12 + 6;``等于``total = total / (12+6);``
 - 注意两个运算符中间不要有空格
 
-### [递增递减运算符](https://github.com/wkwbk/c-language/blob/main/.c/(a%2B%2B)and(%2B%2Ba).c)
+### [递增递减运算符](https://github.com/wkwbk/c-language/blob/main/.c/a%2B%2Band%2B%2Ba.c)
 
 - ``++``,``--``是两个很特殊的运算符，它们是单目运算符，这个算子还必须是变量
 - 它们的作用就是给这个变量+1或者-1
