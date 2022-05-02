@@ -156,4 +156,5 @@ int main()
 |  ==  |  等于  |  a==b |   a等于b   |
 |  !=  | 不等于 |  a!=b |  a不等于b  |
 
+- 当两个值的关系符合关系运算符的预期值时，关系运算的结果为整数1，否则为整数0，[例如](https://github.com/wkwbk/c-language/blob/main/.c/relational-operation-result.c)
 
