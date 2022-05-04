@@ -302,16 +302,8 @@ int main()
   - 与 while 循环相同的是，条件满足时执行循环，条件不满足时结束循环
 
 ```mermaid
-      graph LR
-      start[开始] --> input[输入A,B,C]
-      input --> conditionA{A是否大于B}
-      conditionA -- YES --> conditionC{A是否大于C}
-      conditionA -- NO --> conditionB{B是否大于C}
-      conditionC -- YES --> printA[输出A]
-      conditionC -- NO --> printC[输出C]
-      conditionB -- YES --> printB[输出B]
-      conditionB -- NO --> printC[输出C]
-      printA --> stop[结束]
-      printC --> stop
-      printB --> stop
+      graph TB
+      条件是否满足 -- 是 --> 循环体
+      循环体 --> 条件是否满足
+      条件是否满足 -- 否 --> 后续语句
 ````
