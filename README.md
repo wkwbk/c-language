@@ -301,11 +301,10 @@ int main()
   - do while 循环和 while 循环很像，唯一的区别是我们在循环体执行结束的时候才来判断条件
   - 与 while 循环相同的是，条件满足时执行循环，条件不满足时结束循环
 
-flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
+```flow
+s=start:开始
+e=end:结束
+o=operation:操作项
+
+s-o-e
+```
